@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+
+<tiles-definitions>
+	<definition name="base.definition" template="WEB-INF/views/tiles_jsps/layout.jsp">
+		<put-attribute name="title" value=""></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/tiles_jsps/header.jsp"></put-attribute>
+		<put-attribute name="menu" value=""></put-attribute>
+		<put-attribute name="body" value=""></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/tiles_jsps/footer.jsp"></put-attribute>
+	</definition>
+
+	<definition name="viewMessages" extends="base.definition">
+		<put-attribute name="title" value="viewMyMessages"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/viewMessages.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="details" extends="base.definition">
+		<put-attribute name="title" value="details"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/details.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu0.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="updateUserInformation" extends="base.definition">
+		<put-attribute name="title" value="Update My Information"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/updateUserInformation.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu1.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="changePassword" extends="base.definition">
+		<put-attribute name="title" value="Update My Information"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/changePassword.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu2.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="viewContacts" extends="base.definition">
+		<put-attribute name="title" value="Update My Information"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/viewContacts.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu3.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="findPeople" extends="base.definition">
+		<put-attribute name="title" value="Update My Information"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/findPeople.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lookupByName" extends="base.definition">
+		<put-attribute name="title" value="Lookup By UserName"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lookupByName.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lookupByNameUserDetails" extends="base.definition">
+		<put-attribute name="title" value="UserDetails"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lookupByNameUserDetails.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lookupByNumber" extends="base.definition">
+		<put-attribute name="title" value="Lookup By Member ID"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lookupByNumber.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="lookupByIDUserDetails" extends="base.definition">
+		<put-attribute name="title" value="UserDetails"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lookupByIDUserDetails.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="searchUsers" extends="base.definition">
+		<put-attribute name="title" value="Quick Search User"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/searchUsers.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="quickSearchUserDetails" extends="base.definition">
+		<put-attribute name="title" value="UserDetails"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/quickSearchUserDetails.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu4.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="adminHomePage" extends="base.definition">
+		<put-attribute name="title" value="Admin HomePage"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/adminHomePage.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/tiles_jsps/menu/menu6.jsp"></put-attribute>
+	</definition>
+	
+	
+	
+
+
+</tiles-definitions>
